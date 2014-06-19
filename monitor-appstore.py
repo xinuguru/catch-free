@@ -15,9 +15,9 @@ def isFree(url):
 
 urls = [
     #"https://itunes.apple.com/kr/app/instaplace/id565105760?mt=8",
-	"https://itunes.apple.com/kr/app/avplayer-mu-inkoding-sogdojojeol/id395680819?mt=8",
-	"https://itunes.apple.com/kr/app/teoboseukaen-yeongsujeung/id342548956?mt=8",
-	#"https://itunes.apple.com/kr/app/gwan-utd/id599900813?mt=8",
+    "https://itunes.apple.com/kr/app/avplayer-mu-inkoding-sogdojojeol/id395680819?mt=8",
+    "https://itunes.apple.com/kr/app/teoboseukaen-yeongsujeung/id342548956?mt=8",
+    #"https://itunes.apple.com/kr/app/gwan-utd/id599900813?mt=8",
 ]
 
 
