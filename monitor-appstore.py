@@ -14,15 +14,14 @@ def isFree(url):
     jsobjects = re.findall("<script.*>its.serverData=(.*)</script>", html)
 
     if jsobjects:
-        print url, jsobjects[0]
         serverData = json.loads(jsobjects[0])
         return serverData["pageData"]["isFree"]
 
     return False
 
 urls = [
-    "https://itunes.apple.com/kr/app/avplayer-mu-inkoding-sogdojojeol/id395680819?mt=8",
-]
+    "https://itunes.apple.com/kr/app/teoboseukaen-yeongsujeung/id342548956?mt=8",
+    # more itunes urls
 
 
 random.seed()
